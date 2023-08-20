@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+.hidden {
+  display: none;
+}
+
+.img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
