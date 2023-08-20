@@ -7,6 +7,6 @@ const randomBgImg = images[Math.floor(Math.random() * images.length)];
 
 const definedBgImg = new Image();
 
-definedBgImg.src = `img/${randomBgImg}`;
+definedBgImg.src = `./img/${randomBgImg}`;
 
 document.body.style.backgroundImage = `url(${definedBgImg.src})`;
