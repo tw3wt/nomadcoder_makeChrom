@@ -7,6 +7,6 @@ const randomBgImg = images[Math.floor(Math.random() * images.length)];
 
 const definedBgImg = new Image();
 
-definedBgImg.src = `./img/${randomBgImg}`;
+definedBgImg.src = `https://tw3wt.github.io/nomadcoder_makeChrome/img/${randomBgImg}`;
 
 document.body.style.backgroundImage = `url(${definedBgImg.src})`;
