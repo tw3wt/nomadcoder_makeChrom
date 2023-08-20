@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+  background-size: contain;
 }
 
 .hidden {
