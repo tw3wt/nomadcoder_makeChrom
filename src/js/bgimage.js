@@ -1,10 +1,9 @@
-const images = ["beom1.jpg"];
+const images = ["beom2.jpg"];
 const body = document.querySelector("body");
 
 body.classList.add("img");
 
-const randomBgImg = "beom1.jpg";
-randomBgImg.style.height="800";
+const randomBgImg = "beom2.jpg";
 
 const definedBgImg = new Image();
 
