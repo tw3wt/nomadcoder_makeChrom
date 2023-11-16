@@ -11,6 +11,9 @@
   "devDependencies": {
     "parcel": "^2.0.0"
   },
-  "keywords": [], 
-  "homepage": "https://tw3wt.github.io/nomadcoder_makeChrome/"
+  "keywords": [],
+  "homepage": "https://tw3wt.github.io/nomadcoder_makeChrome/",
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
