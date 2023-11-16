@@ -3,7 +3,7 @@ const body = document.querySelector("body");
 
 body.classList.add("img");
 
-const randomBgImg = "beom1.jpg";
+const randomBgImg = "img1.jpg";
 
 const definedBgImg = new Image();
 definedBgImg.src = `https://tw3wt.github.io/nomadcoder_makeChrome/img/${randomBgImg}`;
