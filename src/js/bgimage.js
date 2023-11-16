@@ -1,4 +1,4 @@
-const images = ["beom.jpg"];
+const images = ["beom1.jpg"];
 const body = document.querySelector("body");
 
 body.classList.add("img");
