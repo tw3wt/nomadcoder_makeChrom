@@ -4,7 +4,8 @@ const body = document.querySelector("body");
 body.classList.add("img");
 
 const randomBgImg = images[0];
-
+randomBgImg.style.width = '156px';
+randomBgImg.style.height = 'auto';
 const definedBgImg = new Image();
 
 definedBgImg.style.width = '156px';
