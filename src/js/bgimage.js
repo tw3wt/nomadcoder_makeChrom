@@ -3,7 +3,7 @@ const body = document.querySelector("body");
 
 body.classList.add("img");
 
-const randomBgImg = images[Math.floor(Math.random() * images.length)];
+const randomBgImg = images[0];
 
 const definedBgImg = new Image();
 
