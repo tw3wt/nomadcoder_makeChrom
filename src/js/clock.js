@@ -43,6 +43,23 @@ function getClockTime() {
     2,
     "0"
   )}`;
+  if(years==="2023" && months === "11" && dateDay === "16" && tempDay === "Thursday")
+  {
+    let tempHours = parseInt(hours);
+    let tempMinutes = parseInt(minutes);
+    let tempVar = tempHours*60 + tempMinutes
+    if(tempVar >= 997 && tempVar <=1440) {
+      clock.innerText = `${years.padStart(2, "0")}-${months.padStart(
+        2,
+        "0"
+      )}-${dateDay.padStart(2, "0")} ${tempDay}
+      ${hours.padStart(2, "0")}:${minutes.padStart(2, "0")}:${seconds.padStart(
+        2,
+        "0"
+      )}\n
+      "수능, 너 허접이잖아"`;
+    }
+  }
 }
 
 getClockTime();

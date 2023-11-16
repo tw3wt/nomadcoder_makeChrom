@@ -21,7 +21,7 @@ function paintToDo(newTodo) {
   const span = document.createElement("span");
   span.innerText = newTodo.text;
   const button = document.createElement("button");
-  button.innerText = "👽";
+  button.innerText = "🗑️";
   button.addEventListener("click", clickEmoji);
   li.appendChild(span);
   li.appendChild(button);
