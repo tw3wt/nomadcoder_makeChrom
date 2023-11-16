@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 body.classList.add("img");
 
 const randomBgImg = "beom1.jpg";
-randomBgImg.style.height="50%";
+randomBgImg.style.height="800";
 
 const definedBgImg = new Image();
 
